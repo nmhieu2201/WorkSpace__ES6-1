@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ES6__1</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div style="padding: 50px">
+      <div class="container" style="text-align: center">
+        <h3>Bài Tập 1: Color House</h3>
+        <i
+          class="fa fa-home"
+          id="home"
+          style="font-size: 200px; margin-bottom: 40px"
+        ></i>
+        <h4>Select A Color</h4>
+        <div id="colors"></div>
+        <hr />
+      </div>
+    </div>
+    <div>
+      <h3 style="text-align: center">Bài Tập 2</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-6" id="form-khoilop1">
+            <h4>Khối lớp 1</h4>
+            <label for="">Toán</label>
+            <input id="diemToan" type="text" class="form-control" />
+            <br />
+            <label for="">Lý</label>
+            <input id="diemLy" type="text" class="form-control" />
+            <br />
+            <label for="">Hoá</label>
+            <input id="diemHoa" type="text" class="form-control" />
+            <button class="btn btn-success mt-3" id="kLA">Tính</button>
+            <div class="alert alert-success mt-3" id="resultA"></div>
+          </div>
+          <div class="col-6" id="form-khoilop2">
+            <h4>Khối lớp 2</h4>
+            <label for="">Văn</label>
+            <input id="diemVan" type="text" class="form-control" />
+            <br />
+            <label for="">Sử</label>
+            <input id="diemSu" type="text" class="form-control" />
+            <br />
+            <label for="">Địa</label>
+            <input id="diemDia" type="text" class="form-control" />
+            <br />
+            <label for="">Tiếng Anh</label>
+            <input id="diemAnh" type="text" class="form-control" />
+            <button class="btn btn-success mt-3" id="kLB">Tính</button>
+            <div class="alert alert-success mt-3" id="resultB"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="padding: 40px 0">
+      <h3 style="text-align: center">Bài Tập 3</h3>
+      <div
+        class="container"
+        style="
+          height: 200px;
+          background-color: yellow;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+        "
+      >
+        <h2 id="heading" style="color: #ffffff; font-size: 80px"></h2>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
